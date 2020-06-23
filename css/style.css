@@ -1,0 +1,1241 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Font */
+@font-face {
+  font-family: 'FiraSans';
+  src: url('Fira_Sans/FiraSans-Black.tff') format('truetype');
+  src: url('Fira_Sans/FiraSans-Blackitalic.tff') format('truetype');
+  src: url('Fira_Sans/FiraSans-Bold.tff') format('truetype');
+  src: url('Fira_Sans/FiraSans-BoldItalic.tff') format('truetype');
+  src: url('Fira_Sans/FiraSans-ExtraBold.tff') format('truetype');
+  src: url('Fira_Sans/FiraSans-ExtraBoldItalic.tff') format('truetype');
+  src: url('Fira_Sans/FiraSans-ExtraLight.tff') format('truetype');
+  src: url('Fira_Sans/FiraSans-ExtraLightItalic.tff') format('truetype');
+  src: url('Fira_Sans/FiraSans-Italic.tff') format('truetype');
+  src: url('Fira_Sans/FiraSans-Light.tff') format('truetype');
+  src: url('Fira_Sans/FiraSans-LightItalic.tff') format('truetype');
+  src: url('Fira_Sans/FiraSans-Medium.tff') format('truetype');
+  src: url('Fira_Sans/FiraSans-MediumItalic.tff') format('truetype');
+  src: url('Fira_Sans/FiraSans-Regular.tff') format('truetype');
+  src: url('Fira_Sans/FiraSans-SemiBold.tff') format('truetype');
+  src: url('Fira_Sans/FiraSans-SemiBoldItalic.tff') format('truetype');
+  src: url('Fira_Sans/FiraSans-Thin.tff') format('truetype');
+  src: url('Fira_Sans/FiraSans-ThinItalic.tff') format('truetype');
+}
+
+/* Header */
+.container-header-fullwidth {
+    height: 68px;
+    display: flex;
+    justify-content: center;
+}
+
+.container-header-minwidth {
+    width: 1311px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li {
+    display: inline;
+    list-style: none;
+    margin: 0 20px;
+}
+
+nav ul li:last-of-type{
+    color: white;
+    padding: 10px;
+    background-color: #18A6DE;
+    border: 2px solid #18A6DE;
+    border-radius: 20px;
+}
+
+/* Main */
+
+/* Desktop/Hero */
+.container-desktop-hero-fullwidth {
+    height: 880px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+
+.container-desktop-hero-minwidth {
+    width: 1311px;
+}
+
+.container-hero-left {
+    position: absolute;
+    z-index:2;
+}
+
+.performance-without {
+    height: 160px;
+    width: 814px;
+    margin-top: 152px;
+    color: #293E59;
+    font-family: Butler;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.how-we-helped-blumar {
+    height: 48px;
+    width: 329px;
+    margin: 24px 0;
+    color: #9B9B9B;
+    font-family: "Fira Sans";
+    font-size: 16px;
+}
+
+.discover-button {
+    height: 42px;
+    width: 121px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+    border: 2px solid #18A6DE;
+    border-radius: 20px;
+}
+
+.discover-button a {
+    color: #18A6DE;
+    text-decoration: none;
+}
+
+.hero-image {
+    margin: 32px 236px 282px 445px;
+    position: absolute;
+    z-index:1;
+}
+
+.hero-image img {
+    height: 566px;
+    width: 755px;
+}
+
+.hero-form {
+    height: 294px;
+    width: 486px;
+    float: right;
+    position: absolute;
+    z-index: 2;
+    margin: 510px 48px 76px 860px;
+    background-color: #293E59;
+}
+
+.from-our-studio-hero {
+    margin-top: 40.94px;
+    margin-bottom: 16.77px;
+    margin-left: 48px;
+    color: #FFFFFF;
+    font-family: Butler;
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: -0.3px;
+    line-height: 40px;
+}
+
+.get-a-weekly-hero {
+    margin-bottom: 40.97px;
+    margin-left: 48px;
+    color: #FFFFFF;
+    font-family: "Fira Sans";
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 20px;
+}
+
+.write-your-email-hero {
+    color: #CACACA;
+    font-family: "Fira Sans";
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 20px;
+    margin-bottom: 20.53px;
+    margin-left: 48px;
+}
+
+.read-and-accept-hero {
+    color: #FFFFFF;
+    font-family: "Fira Sans";
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 18px;
+    margin-left: 48px;
+}
+
+.oval-hero {
+    height: 880px;
+    width: 880px;
+    border-radius: 50%;
+    opacity: 0.56;
+    position: relative;
+    z-index: 0;
+    margin-left: 556px;
+    background-color: #80C7E5;
+}
+
+
+/* Desktop/BloccoHome/Service */
+.container-desktop-bloccohome-service-fullwidth {
+    height: 1500px;
+    display: flex;
+    justify-content: center;
+}
+
+.container-desktop-bloccohome-service-minwidth {
+    width: 1311px;
+}
+
+.desktop-text {
+    height: 120px;
+    width: 867px;
+    margin-left: 221px;
+}
+
+.zerogrey-is-a-et-ius {
+  height: 120px;
+  width: 867px;
+  color: #484A54;
+  font-family: Butler;
+  font-size: 32px;
+  letter-spacing: -0.3px;
+  line-height: 40px;
+  text-align: center;
+}
+
+/* Group 3*/
+.group-3 {
+    height: 484px;
+    width: 1311px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 220px;
+    margin-bottom: 50px;
+}
+
+.group-3-left {
+    height: 232px;
+    width: 309px;
+    margin-top: 120px;
+    margin-bottom: 132px;
+    color: #293E59;
+}
+
+.how-can-we-help h1 {
+    font-size: 40px;
+}
+
+.discover-button-group-3{
+    width: 180px;
+    color: #FFFFFF;
+    padding: 10px;
+    background-color: #FFFFFF;
+    border: 2px solid #18A6DE;
+    border-radius: 20px;
+}
+
+.discover-button-group-3 a {
+    text-decoration: none;
+    color: #18A6DE;
+}
+
+.group-3-right {
+    height: 484px;
+    width: 1311px;
+    display: flex;
+    flex-direction: column;
+}
+
+.group-3-1,
+.group-3-2,
+.group-3-3,
+.group-3-4 {
+    display: flex;
+    flex-direction: row;
+}
+
+.group-3-1 h2 {
+    height: 80px;
+    width: 200px;
+    margin-bottom: 52px;
+    margin-right: 246px;
+    margin-left: 136px;
+    color: #293E59;
+    font-family: Butler;
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: -0.3px;
+    line-height: 40px;
+    text-align: right;
+}
+
+.group-3-1 p {
+    height: 72px;
+    width: 421px;
+    margin-bottom: 56px;
+    opacity: 0.8;
+    color: #293E59;
+    font-family: "Fira Sans";
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+
+.group-3-2 h2 {
+    height: 40px;
+    width: 200px;
+    margin-bottom: 72px;
+    margin-right: 246px;
+    margin-left: 136px;
+    opacity: 0.48;
+    color: #293E59;
+    font-family: Butler;
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: -0.3px;
+    line-height: 40px;
+    text-align: right;
+}
+
+.group-3-2 p {
+    height: 48px;
+    width: 421px;
+    margin-bottom: 56px;
+    opacity: 0.48;
+    color: #293E59;
+    font-family: "Fira Sans";
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+
+.group-3-3 h2 {
+    height: 80px;
+    width: 200px;
+    margin-bottom: 72px;
+    margin-right: 246px;
+    margin-left: 136px;
+    opacity: 0.48;
+    color: #293E59;
+    font-family: Butler;
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: -0.3px;
+    line-height: 40px;
+    text-align: right;
+}
+
+.group-3-3 p {
+    height: 96px;
+    width: 421px;
+    margin-bottom: 56px;
+    opacity: 0.48;
+    color: #293E59;
+    font-family: "Fira Sans";
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+
+.group-3-4 h2 {
+    height: 80px;
+    width: 200px;
+    margin-right: 246px;
+    margin-left: 136px;
+    opacity: 0.48;
+    color: #293E59;
+    font-family: Butler;
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: -0.3px;
+    line-height: 40px;
+    text-align: right;
+}
+
+.group-3-4 p {
+    height: 96px;
+    width: 421px;
+    opacity: 0.48;
+    color: #293E59;
+    font-family: "Fira Sans";
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+
+/* Desktop/BloccoHome/WhyUs */
+.desktop-bloccohome-whyus {
+    height: 600px;
+    width: 1311px;
+    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url('../img/Office.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    border: 0.5px solid black;
+}
+
+.bloccohome-text {
+    height: 248px;
+    width: 421px;
+    margin-top: 176px;
+    margin-bottom: 176px;
+    margin-left: 778px;
+    margin-right: 112px;
+}
+
+.whyus-top-text {
+    color: #FFFFFF;
+    font-family: Butler;
+    font-size: 48px;
+    font-weight: bold;
+    letter-spacing: -0.3px;
+    line-height: 56px;
+    text-align: right;
+}
+
+.whyus-center-text {
+    color: #FFFFFF;
+    font-family: "Fira Sans";
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+    text-align: right;
+}
+
+.whyus-bottom-text {
+    color:#FFFFFF;
+}
+
+.discover-white {
+    height: 20px;
+    width: 66.55px;
+    color: #FFFFFF;
+    font-family: "Fira Sans";
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 20px;
+    text-align: center;
+    border: 2px solid #FFFFFF;
+    border-radius: 20px;
+}
+
+.discover-white a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/* Desktop/Bloccohome/Blog */
+.container-desktop-bloccohome-blog-fullwidth {
+    height: 737px;
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+.container-desktop-bloccohome-blog-minwidth {
+    width: 1311px;
+}
+
+/* Group 9 */
+.group-9 {
+    height: 696px;
+}
+
+.group-9-top-blog {
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.our-blog {
+    width: 820px;
+    color: #293E59;
+    font-family: Butler;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: -0.3px;
+    line-height: 56px;
+}
+
+.read-all-articles {
+    width: 103px;
+    color: #293E59;
+    font-family: "Fira Sans";
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 20px;
+    text-align: right;
+}
+
+.read-all-articles a {
+    color: #293E59;
+}
+
+.group-9-bottom {
+    height: 600px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.group-9-img-hover {
+    height: 600px;
+    width: 421px;
+    margin-right: 25px;
+    position: relative;
+}
+
+.group-9-img-no-hover {
+    height: 600px;
+    width: 421px;
+    margin-right: 25px;
+    position: relative;
+}
+
+.hover-img {
+    height: 200px;
+    width: 300px;
+    display: none;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.group-9-img-hover:hover > .hover-img {
+    display: block;
+    position:absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.group-9-img-hover:hover {
+    opacity: 0.5;
+}
+
+
+/* Desktop/BloccoHome/Platform */
+.container-desktop-bloccohome-platform-fullwidth {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    margin: 141px 0;
+}
+
+.container-desktop-bloccohome-platform-minwidth {
+    width: 1311px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.platform-img {
+  height: 300px;
+  width: 978px;
+  background-color: rgba(0,0,0,0.48);
+}
+
+.patform-text {
+    height: 216px;
+    width: 310px;
+}
+
+.our-platform {
+    color: #293E59;
+    font-family: Butler;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.neque-porro-quisquam {
+    color: #9B9B9B;
+    font-family: "Fira Sans";
+    font-size: 16px;
+    margin: 24px 0;
+}
+
+
+/* Desktop/Home/Newsletter */
+.container-desktop-newsletter-fullwidth {
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 126px;
+}
+
+.container-desktop-newsletter-minwidth {
+    width: 1311px;
+    background-image: url("../img/Newsletter.jpg");
+    background-position: center;
+}
+
+.newsletter-form {
+    height: 199px;
+    width: 421px;
+    margin: 72px 778px 79px 111px;
+}
+
+.from-our-studio-newsletter {
+    color: #293E59;
+    font-family: Butler;
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: -0.3px;
+    line-height: 40px;
+}
+
+.get-a-weekly-newsletter {
+    height: 48px;
+    width: 421px;
+    color: #9B9B9B;
+    font-family: "Fira Sans";
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+
+.write-your-email-newsletter {
+    height: 24px;
+    width: 125px;
+    color: #9B9B9B;
+    font-family: "Fira Sans";
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+    text-align: center;
+}
+
+.read-and-accept-newsletter {
+    height: 18px;
+    width: 194px;
+    color: #9B9B9B;
+    font-family: "Fira Sans";
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 18px;
+}
+
+/* Footer */
+
+/* Desktop/Footer/grey */
+.container-desktop-footer-grey-fullwidth {
+    height: 734px;
+    display: flex;
+    justify-content: center;
+}
+
+.container-desktop-footer-grey-minwidth {
+    width: 1311px;
+}
+
+.footer-top {
+    height: 521px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 81px;
+    border-bottom: 1px solid #CACACA;
+}
+
+.footer-top-left {
+    height: 400px;
+    width: 422px;
+}
+
+.lets-talk {
+    height: 64px;
+    margin-top: 40px;
+    margin-bottom: 24px;
+    color: #293E59;
+    font-family: Butler;
+    font-size: 45px;
+    font-weight: bold;
+    letter-spacing: -0.3px;
+    line-height: 64px;
+}
+
+.we-can-help {
+    height: 80px;
+    color: #9B9B9B;
+    font-family: "Fira Sans";
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+
+.contact-us {
+    width: 100px;
+    color: white;
+    padding: 10px;
+    background-color: #FFFFFF;
+    border: 2px solid #18A6DE;
+    border-radius: 20px;
+}
+
+.contact-us a {
+    text-decoration: none;
+    color: #18A6DE;
+}
+
+.footer-right {
+    display: flex;
+    flex-direction: row;
+}
+
+.services-list,
+.cityes-list {
+    height: 440px;
+    width: 110px;
+    margin-left: 247px;
+}
+
+.services-list ul li,
+.cityes-list ul li {
+    font-family: "Fira Sans";
+    font-size: 16px;
+    list-style: none;
+    margin: 20px 0;
+}
+
+.services-list ul li a,
+.cityes-list ul li a {
+    text-decoration: none;
+    color: #293E59;
+}
+
+.footer-bottom {
+    height: 212px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #293E59;
+}
+
+.footer-bottom-left {
+    height: 100px;
+    width: 205px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-bottom-left a {
+    color: #293E59;
+    text-decoration: none;
+}
+
+.footer-bottom-left a:last-of-type {
+    margin-left: 20px;
+}
+
+.footer-bottom-center {
+    height: 18px;
+    width: 663px;
+    color: #293E59;
+    font-family: "Fira Sans";
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 18px;
+    text-align: center;
+}
+
+.footer-bottom-right {
+    height: 100px;
+    width: 300px;
+    color: #293E59;
+}
+
+.icon-footer a {
+    text-decoration: none;
+}
+
+
+/* Mobile-view */
+
+@media screen and (max-width: 767px){
+
+    /* Header Mobile */
+    .container-header-minwidth {
+        width: 334px;
+    }
+
+    .logo-header img {
+        height: 24px;
+        width: 121px;
+    }
+
+    nav ul li {
+        display: none;
+    }
+
+    nav ul li:last-of-type {
+        margin-left: 0;
+        border-radius: 50%;
+        display: block;
+        position: fixed;
+        z-index: 3;
+    }
+
+    /* Main Mobile*/
+
+    /* Desktop/Hero */
+    .container-desktop-hero-maxwidth {
+        margin-bottom: 50px;
+    }
+    .container-desktop-hero-minwidth {
+        width: 334px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .container-hero-left {
+        height: 327px;
+        width: 327px;
+    }
+
+    .performance-without {
+        height: 168px;
+        width: 327px;
+        font-size: 30px;
+        margin-top: 0;
+    }
+
+    .how-we-helped-blumar {
+        height: 48px;
+        width: 327px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .discover-button {
+        height: 40px;
+        width: 119px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+        border: 2px solid #18A6DE;
+        border-radius: 20px;
+    }
+
+    .discover-button a {
+        color: #18A6DE;
+        text-decoration: none;
+    }
+
+    .hero-image {
+        height: 245px;
+        width: 327px;
+        margin: 395px 0 0 0;
+    }
+
+    .hero-image img {
+        height: 245px;
+        width: 327px;
+    }
+
+    .hero-form {
+        display: none;
+    }
+
+    .oval-hero {
+        height: 496px;
+        width: 496px;
+        border-radius: 50%;
+        position: absolute;
+        z-index: 0;
+        margin-left: 350px;
+        margin-top: 277px;
+        background-color: #80C7E5;
+    }
+
+    /* Desktop/BloccoHome/Service */
+    .container-desktop-bloccohome-service-maxwidth {
+        height: 1000px;
+    }
+
+    .container-desktop-bloccohome-service-minwidth {
+        width: 334px;
+    }
+
+    .desktop-text {
+        height: 150px;
+        width: 334px;
+        margin-left: 0px;
+    }
+
+    .zerogrey-is-a-et-ius {
+        height: 250px;
+        width: 327px;
+        font-size: 24px;
+        text-align: center;
+    }
+
+    /* Group 3 */
+    .group-3 {
+        height: 1600px;
+        width: 334px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 80px;
+        margin-bottom: 0;
+    }
+
+    .group-3-left {
+        height: 300px;
+        width: 320px;
+        color: #293E59;
+        font-size: 32px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+
+    .group-3-left h1 {
+        margin-bottom: 40px;
+    }
+
+    .discover-button-group-3{
+        width: 100px;
+        font-size: 20px;
+        color: #FFFFFF;
+        padding: 10px;
+        background-color: #FFFFFF;
+        border: 2px solid #18A6DE;
+        border-radius: 20px;
+    }
+
+    .discover-button-group-3 a {
+        text-decoration: none;
+        color: #18A6DE;
+    }
+
+    .group-3-right {
+        height: 200px;
+        width: 334px;
+    }
+
+    .group-3-1,
+    .group-3-2,
+    .group-3-3,
+    .group-3-4 {
+        display: flex;
+        flex-direction: column;
+        justify-content:none;
+    }
+
+    .group-3-1 h2 {
+        text-align: left;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    .group-3-1 p,
+    .group-3-2 p,
+    .group-3-3 p,
+    .group-3-4 p {
+        width: 334px;
+        padding: 0 8px;
+    }
+
+    .group-3-2 h2,
+    .group-3-3 h2,
+    .group-3-4 h2 {
+        text-align: left;
+        margin-bottom: 52px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+
+    /* Desktop/BloccoHome/WhyUs */
+    .desktop-bloccohome-whyus {
+        height: 551px;
+        width: 334px;
+        margin-bottom: 100px;
+        display: flex;
+        justify-content: flex-end;
+        background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url('../img/Office_small.jpg');
+        background-size: contain;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+
+    .bloccohome-text {
+        height: 248px;
+        width: 300px;
+        margin-top: 200px;
+        margin-bottom: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .whyus-top-text {
+        color: #FFFFFF;
+        font-size: 30px;
+        text-align: right;
+    }
+
+    .whyus-center-text {
+        color: #FFFFFF;
+        font-size: 16px;
+        text-align: right;
+    }
+
+    .whyus-bottom-text {
+        color:#FFFFFF;
+    }
+
+    .discover-white {
+        height: 20px;
+        width: 66.55px;
+        color: #FFFFFF;
+        font-size: 14px;
+        text-align: center;
+        border: 2px solid #FFFFFF;
+        border-radius: 20px;
+    }
+
+    .discover-white a {
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+
+    /* Desktop/Bloccohome/Blog */
+    .container-desktop-bloccohome-blog-fullwidth {
+        height: 494px;
+        display: flex;
+        justify-content: center;
+        margin-top: 1000px;
+    }
+
+    .container-desktop-bloccohome-blog-minwidth {
+        width: 327px;
+    }
+
+    /* Group 9 */
+    .group-9-top-blog {
+        height: 56px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .our-blog {
+        width: 327px;
+        font-size: 25px;
+    }
+
+    .read-all-articles {
+        width: 300px;
+        font-size: 14px;
+    }
+
+    .group-9-bottom {
+        height: 341px;
+        margin-top: 40px;
+        overflow-y: hidden;
+    }
+
+    .group-9-img-hover {
+        height: 341px;
+        width: 255px;
+        margin-right: 10px;
+    }
+
+    .group-9-img-no-hover {
+        height: 341px;
+        width: 255px;
+        margin-right: 10px;
+    }
+
+    .group-9 img {
+        height: 341px;
+        width: 255px;
+    }
+
+    .hover-img {
+        font-size: 15px;
+        height: 200px;
+        width: 200px;
+        display: none;
+        color: #FFFFFF;
+    }
+
+    /* Desktop/BloccoHome/Platform */
+    .container-desktop-bloccohome-platform-fullwidth {
+        height: 424px;
+        margin: 106px 0;
+    }
+
+    .container-desktop-bloccohome-platform-minwidth {
+        width: 334px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .platform-img {
+      height: 200px;
+      width: 334px;
+      margin-bottom: 50px;
+      background-color: rgba(0,0,0,0.48);
+    }
+
+    .platform-img img {
+        height: 200px;
+        width: 327px;
+    }
+
+    /* Desktop/Home/Newsletter */
+    .container-desktop-newsletter-fullwidth {
+        height: 650px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 126px;
+    }
+
+    .container-desktop-newsletter-minwidth {
+        width: 100%;
+        background-image: url("../img/Newsletter_small.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .newsletter-form {
+        height: 199px;
+        width: 400px;
+        margin: 94px 24px 299px 25px;
+    }
+
+    .from-our-studio-newsletter {
+        font-size: 24px;
+    }
+
+    .get-a-weekly-newsletter {
+        height: 48px;
+        width: 421px;
+        color: #9B9B9B;
+        font-size: 16px;
+    }
+
+    .write-your-email-newsletter {
+        height: 24px;
+        width: 125px;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .read-and-accept-newsletter {
+        height: 18px;
+        width: 194px;
+        font-size: 15px;
+    }
+
+    /* Footer */
+
+    /* Desktop/Footer/grey */
+    .container-desktop-footer-grey-fullwidth {
+        height: 900px;
+        margin-bottom: 50px;
+    }
+
+    .container-desktop-footer-grey-minwidth {
+        width: 324px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-top {
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 81px;
+        border-bottom: 1px solid #CACACA;
+    }
+
+    .footer-top-left {
+        height: 500px;
+        width: 310px;
+        text-align: center;
+    }
+
+    .lets-talk {
+        margin-bottom: 80px;
+    }
+
+    .contact-us {
+        margin-left: 106px;
+    }
+
+    .footer-right {
+        width: 324px;
+        flex-direction: row;
+    }
+
+    .services-list,
+    .cityes-list {
+        height: 400px;
+        width: calc(100% / 2);
+        margin-left: 0px;
+    }
+
+    .cityes-list {
+        text-align: right;
+    }
+
+    .services-list ul li,
+    .cityes-list ul li {
+        color: #293E59;
+        font-size: 20px;
+    }
+
+    .footer-bottom {
+        height: 212px;
+        flex-direction: column;
+    }
+
+    .footer-bottom-left {
+        margin-top: 30px;
+    }
+
+    .footer-bottom-left a {
+        text-decoration: none;
+    }
+
+    .footer-bottom-left a:last-of-type {
+        margin-left: 20px;
+    }
+
+    .footer-bottom-center {
+        display: none;
+    }
+
+    .footer-bottom-right {
+        height: 100px;
+        width: 300px;
+        display:flex;
+        justify-content: center;
+        margin-top: 39px;
+    }
+
+};
